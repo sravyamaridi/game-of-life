@@ -493,6 +493,18 @@
                     </plugin>
                 </plugins>
             </reporting>
+            <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-KQ4V3DI-releases</name>
+        <url>http://localhost:8081/artifactory/mymaven_repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-KQ4V3DI-snapshots</name>
+        <url>http://localhost:8081/artifactory/mymaven_repo</url>
+    </snapshotRepository>
+</distributionManagement>
         </profile>
     </profiles>
 </project>
